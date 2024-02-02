@@ -6,12 +6,30 @@
 //
 
 import SwiftUI
+import Observation
 
 @main
-struct sumUpDownApp: App {
+struct __2_subcansumApp: App {
+    
+    @State var plotData = PlotClass()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .environment(plotData)
+                    .tabItem {
+                        Text("Plot")
+                    }
+                TextView()
+                    .environment(plotData)
+                    .tabItem {
+                        Text("Text")
+                    }
+                            
+                            
+            }
+            
         }
     }
 }

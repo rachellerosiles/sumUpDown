@@ -11,29 +11,26 @@ import Foundation
     
     var sumUp = 0.0
     var sumDown = 0.0
-    var N = 0
     var enableButton = true
     
-    func initSumUpdown(N: Int) -> Bool{
-        self.N = N
-        
+    func initSumUpdown() -> Bool{
         return true
     }
     
-    func getSumUp() async -> (Type: String, StringToDisplay: String, Value: Double) {
+    func getSumUp(N: Int) async -> Double {
+        sumUp = 0.0
         for n in 1...N {
             sumUp = sumUp + Double(1/n)
         }
-        let sumUpText = "\(sumUp.formatted(.number.precision(.fractionLength(7))))"
-        return (Type: "Sum (up)", StringToDisplay: sumUpText, Value: sumUp)
+        return sumUp
     }
     
-    func getSumDown() async -> (Type: String, StringToDisplay: String, Value: Double) {
-        for n in N...1{
+    func getSumDown(N: Int) async -> Double {
+        sumDown = 0.0
+        for n in (1...N).reversed() {
             sumDown = sumDown + Double(1/n)
         }
-        let sumDownText = "\(sumDown.formatted(.number.precision(.fractionLength(7))))"
-        return (Type: "Sum (down)", StringToDisplay: sumDownText, Value: sumDown)
+        return sumDown
     }
     
     @MainActor func setButtonEnable(state: Bool){

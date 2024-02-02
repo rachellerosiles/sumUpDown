@@ -14,6 +14,9 @@
 		AC0C6AD52B6C6CDC0051DED2 /* sumUpDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C6AD42B6C6CDC0051DED2 /* sumUpDownTests.swift */; };
 		AC0C6ADF2B6C6CDC0051DED2 /* sumUpDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C6ADE2B6C6CDC0051DED2 /* sumUpDownUITests.swift */; };
 		AC0C6AE12B6C6CDC0051DED2 /* sumUpDownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C6AE02B6C6CDC0051DED2 /* sumUpDownUITestsLaunchTests.swift */; };
+		AC0C6AEE2B6C6D310051DED2 /* sumUpDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C6AED2B6C6D310051DED2 /* sumUpDown.swift */; };
+		AC0C6AEF2B6C6D310051DED2 /* sumUpDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C6AED2B6C6D310051DED2 /* sumUpDown.swift */; };
+		AC0C6AF02B6C6D310051DED2 /* sumUpDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C6AED2B6C6D310051DED2 /* sumUpDown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		AC0C6ADA2B6C6CDC0051DED2 /* sumUpDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumUpDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0C6ADE2B6C6CDC0051DED2 /* sumUpDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumUpDownUITests.swift; sourceTree = "<group>"; };
 		AC0C6AE02B6C6CDC0051DED2 /* sumUpDownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumUpDownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC0C6AED2B6C6D310051DED2 /* sumUpDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumUpDown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				AC0C6AC62B6C6CDC0051DED2 /* Assets.xcassets */,
 				AC0C6AC82B6C6CDC0051DED2 /* sumUpDown.entitlements */,
 				AC0C6AC92B6C6CDC0051DED2 /* Preview Content */,
+				AC0C6AED2B6C6D310051DED2 /* sumUpDown.swift */,
 			);
 			path = sumUpDown;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			files = (
 				AC0C6AC52B6C6CDB0051DED2 /* ContentView.swift in Sources */,
 				AC0C6AC32B6C6CDB0051DED2 /* sumUpDownApp.swift in Sources */,
+				AC0C6AEE2B6C6D310051DED2 /* sumUpDown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0C6AEF2B6C6D310051DED2 /* sumUpDown.swift in Sources */,
 				AC0C6AD52B6C6CDC0051DED2 /* sumUpDownTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +285,7 @@
 			files = (
 				AC0C6ADF2B6C6CDC0051DED2 /* sumUpDownUITests.swift in Sources */,
 				AC0C6AE12B6C6CDC0051DED2 /* sumUpDownUITestsLaunchTests.swift in Sources */,
+				AC0C6AF02B6C6D310051DED2 /* sumUpDown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
